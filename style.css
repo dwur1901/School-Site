@@ -1,0 +1,31 @@
+body {
+align: center;
+}
+table{
+width: 100%;
+}
+.navigation a {
+display: block;
+text-decoration: none;
+}
+th a{
+background: white;
+border: 1px solid black;
+color: black;
+text-align: center;
+background-position: center;
+padding: 8px;
+}
+th a:hover {
+background: #191919;
+color: white;
+}
+hr .navigation {
+color: black;
+}
+h1 {
+align: center;
+}
+p {
+align: center;
+}
