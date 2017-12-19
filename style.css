@@ -1,8 +1,10 @@
 body {
-align: center;
+text-align: center;
+background-color: #d3d3d3;
 }
 table{
 width: 100%;
+opacity: 0.9;
 }
 .navigation a {
 display: block;
@@ -24,8 +26,13 @@ hr .navigation {
 color: black;
 }
 h1 {
-align: center;
+border: 2px solid gray;
+background-color: white;
+opacity: 0.8;
+width: 50%;
 }
 p {
-align: center;
+background-color: #d5d5d5;
+opacity: 0.95;
+width: 50%;
 }
