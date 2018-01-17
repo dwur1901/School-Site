@@ -1,10 +1,9 @@
 body {
 text-align: center;
-background-color: #D0EBEB;
+background-color: #4A504A;
 }
 table{
 width: 100%;
-opacity: 0.9;
 }
 .navigation a {
 display: block;
@@ -28,13 +27,16 @@ color: black;
 h1 {
 border: 2px solid gray;
 background-color: white;
-opacity: 0.8;
 width: 50%;
 }
 p {
 background-color: #d5d6d5;
-opacity: 0.8;
 width: 60%;
-border: 1px solid #D0EBEB;
+border: 1px solid #4A504A;
 text-align: left;
+padding: 7px;
+margin: 7px;
+}
+table .idk {
+opacity: 0.8;
 }
