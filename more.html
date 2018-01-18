@@ -12,7 +12,7 @@
 <tr>
 <th><a href="index.html">Home</a></th>
 <th><a href="about.html">About</a></th>
-<th><a href="more.html">More</a></th>
+<th><a href="more.html">App</a></th>
 </tr>
 </table>
 <br />
@@ -25,30 +25,38 @@ Movie Picker
 </h1>
 <center>
 
-<div class="p">
-<center>
+<article>
 <p>
 There were two of the most difficult things, and one of them was at the very beginning. What should I make? I finally decided on an app that picks a random movie, if the user wants to watch something, but can't decide on what. Of my two biggest challenges, this was the only one I solved.
 </p>
-</center>
-<center>
+<br />
 <p>
 Next came planning. It was at this point that my partner, Yousou, switched out of the class. I thought it 100 movies would be a good number for the app. We also needed 3 sensors. This was the second problem.
 </p>
-</center>
-<center>
+<br />
 <p>
 The design was next. I decided to use an accelerometer, so you shook the device to get a new film. I also added a slider. Left was for a lighter tone, right was for a darker tone. I also added a web viewer to put the RottonTomatoes page of each film.
 </p>
-</center>
-<center>
+<br />
 <p>
 Finally, there was programming. It was easy but time-consuming, as I entered each film individually. I made it so the slider's position, when the device was shook, chose between different groups of films (separated by tone). At the end it all worked, but I never got the other 2 sensors, as I couldn't think of any place or use for them.
 </p>
-</center>
-</div>
+</article>
 
-<center>
+<aside>
+<button onclick="document.getElementById('more').src='more-trello.png'">Planning</button>
+<button onclick="document.getElementById('more').src='more-layout.png'">Layout</button>
+<button onclick="document.getElementById('more').src='more-code.png'">Code</button>
+<button onclick="document.getElementById('more').src='more-graph.png'">Progress Graph</button>
+<br />
+<img id="more" src="more-graph.png" style="max-width:500px">
+</aside>
+
+<br />
+<hr />
+
+<footer>
+<br />
 <table class="idk">
 <th>
 <a href="https://drive.google.com/drive/folders/1nyWL8-mdeG3CGnPOrBvFppLELdd5eu9I?usp=sharing">
@@ -56,7 +64,7 @@ Find it here!
 </a>
 </th>
 </table>
-</center>
+</footer>
 
 </body>
 </html>

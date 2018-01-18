@@ -27,16 +27,27 @@ color: black;
 h1 {
 border: 2px solid gray;
 background-color: white;
-width: 50%;
+width: 60%;
 }
 p {
 background-color: #d5d6d5;
-width: 60%;
-border: 1px solid #4A504A;
+border: 1px solid black;
 text-align: left;
 padding: 7px;
 margin: 7px;
+max-width: 50%;
 }
 table .idk {
 opacity: 0.8;
+}
+article {
+float: left;
+max-width: 60%;
+}
+asside {
+margin-left: 60%;
+overflow: hidden;
+}
+img {
+position: right;
 }
