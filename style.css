@@ -1,6 +1,6 @@
 body {
 text-align: center;
-background-color: #4A504A;
+background-color: #F3F4F5;
 }
 table{
 width: 100%;
@@ -11,7 +11,7 @@ text-decoration: none;
 }
 th a{
 background: white;
-border: 1px solid black;
+border: 1px solid #292C5F;
 color: black;
 text-align: center;
 background-position: center;
@@ -25,13 +25,13 @@ hr .navigation {
 color: black;
 }
 h1 {
-border: 2px solid gray;
+border: 1px solid #292C5F;
 background-color: white;
 width: 60%;
 }
 p {
-background-color: #d5d6d5;
-border: 1px solid black;
+background-color: #E5E6E5;
+border: 1px solid #292C5F;
 text-align: left;
 padding: 7px;
 margin: 7px;
@@ -50,4 +50,5 @@ overflow: hidden;
 }
 img {
 position: right;
+border: 1px solid #292C5F;
 }
