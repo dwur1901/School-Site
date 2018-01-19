@@ -28,6 +28,7 @@ h1 {
 border: 1px solid #292C5F;
 background-color: white;
 width: 60%;
+box-shadow: 5px 5px 5px grey;
 }
 p {
 background-color: #E5E6E5;
@@ -36,6 +37,7 @@ text-align: left;
 padding: 7px;
 margin: 7px;
 max-width: 50%;
+box-shadow: 5px 5px 5px grey;
 }
 table .idk {
 opacity: 0.8;
@@ -51,4 +53,43 @@ overflow: hidden;
 img {
 position: right;
 border: 1px solid #292C5F;
+box-shadow: 5px 5px 5px grey;
+}
+button {
+    background-color: #fff;
+    color: black;
+    padding: 8px;
+    font-size: 12px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+    text-align: center;
+}
+.dropdown-content a {
+    color: black;
+    padding: 6px 8px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+  background-color: black;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: white;
 }

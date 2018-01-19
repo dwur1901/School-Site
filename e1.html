@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script>
+var countDownDate = new Date("July 14, 2101 4:10:44").getTime();
+var x = setInterval(function() {
+    var now = new Date().getTime();
+    var distance = countDownDate - now;
+    var years = Math.floor(distance / (1000 * 60 * 60 * 24 * 365));
+    var days = Math.floor((distance % (1000 * 60 * 60 * 24 * 365)) / (1000 * 60 * 60 * 24));
+    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    document.getElementById("demo").innerHTML = years + "y " + days + "d " + hours + "h "
+    + minutes + "m " + seconds + "s ";
+    if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "100!";
+    }
+}, 1000);
+</script>
+</head>
+<body>
+
+<header>
+<br />
+<table class="navigation">
+<tr>
+<th><a href="index.html">Home</a></th>
+</tr>
+</table>
+<br />
+<hr class="navigation" />
+</header>
+
+<center><p style="text-align: center;">Time until my 100th birthday:</p></center>
+<center><h1 id="demo"></h1></center>
+
+</body>
+
+</body>
+</html>
