@@ -39,6 +39,10 @@ margin: 7px;
 max-width: 50%;
 box-shadow: 5px 5px 5px grey;
 }
+p a{
+text-decoration: none;
+color: black;
+}
 table .idk {
 opacity: 0.8;
 }
